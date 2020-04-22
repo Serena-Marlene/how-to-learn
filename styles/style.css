@@ -8,6 +8,20 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+div {
+  border: 1px solid red;
+}
+nav {
+  border: 1px solid red;
+}
+ul {
+  border: 1px solid red;
+}
+section {
+  border: 1px solid red;
+}
+
+
 
 .header {
   height: 100vh;
@@ -105,15 +119,15 @@
   margin: 0;
 }
 
+.two-columns__paragraph:nth-of-type(2n) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+} 
+
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-}
-
-.two-columns__paragraph_span {
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .digits {
@@ -335,6 +349,8 @@
   flex-direction: column;
   list-style: none;
   padding: 0;
+  text-decoration: none;
+  color: white;
 }
 
 .footer__column-heading {
@@ -356,4 +372,6 @@
   height: 16px;
   width: 16px;
   margin-right: 10px;
+  text-decoration: none;
+  color: white;
 }
