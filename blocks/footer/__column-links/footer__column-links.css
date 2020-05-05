@@ -1,0 +1,16 @@
+@import url(../__column-link/footer__column-link.css);
+
+.footer__column-links {
+    display: flex;
+    position: relative;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 16px;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+  }

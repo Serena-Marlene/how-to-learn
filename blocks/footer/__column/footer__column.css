@@ -1,0 +1,12 @@
+@import url(../__column-links/footer__column-links.css);
+@import url(../__column-heading/footer__column-heading.css);
+@import url(../../logo/logo.css);
+@import url(../../logo/_place/logo_place_footer.css);
+
+.footer__column {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    padding: 0;
+  }

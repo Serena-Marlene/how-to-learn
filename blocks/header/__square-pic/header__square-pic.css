@@ -1,0 +1,13 @@
+@import url(../../animation/animation.css);
+
+.header__square-pic {
+    position: absolute;
+    height: 568px;
+    width: 568px;
+    top: 64px;
+    right: 0;
+    background-color: cornflowerblue;
+    z-index: -1;
+    transform: rotate(-15deg);
+    
+  }

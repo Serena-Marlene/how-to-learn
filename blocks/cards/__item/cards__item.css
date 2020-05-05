@@ -1,0 +1,10 @@
+.cards__item {
+    flex-direction: column;
+    width: 240px;
+    box-sizing: border-box;
+    margin-right: 100px;
+  }
+  
+  .cards__item:last-of-type {
+      margin-right: 0;
+  }
