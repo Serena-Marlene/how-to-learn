@@ -3,6 +3,7 @@
     width: 240px;
     box-sizing: border-box;
     margin-right: 100px;
+    text-align: center;
   }
   
   .cards__item:last-of-type {
